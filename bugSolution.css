@@ -1,0 +1,9 @@
+/* Correct usage of calc() */
+#element {
+  width: calc(100% - 10px);
+  /* Correct spacing and unit usage */
+}
+/* Incorrect usage of calc(), this will not work as expected */
+/* #element {
+  width:calc(100%-10px);
+} */
